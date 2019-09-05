@@ -26,6 +26,10 @@
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="pie" />
+	
+  <remote  name="dave71670"
+	   fetch="https://github.com/"
+	   revision="pie" />
 		   
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
@@ -72,6 +76,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
+  <project path="device/huawei/kiwi" name="dave71670/device_huawei_kiwi" remote="dave71670" />	
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" remote="aosp" />
