@@ -29,7 +29,7 @@
 	
   <remote  name="dave71670"
 	   fetch="https://github.com/"
-	   revision="pie" />
+	   revision="lineage-16.0" />
 		   
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
